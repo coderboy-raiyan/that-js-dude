@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 1rem 1.5rem;
+  background: #49ce49;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+  cursor: pointer;
+}
+button:hover {
+  background: #3ea33e;
+}
+
+nav {
+  width: 100%;
+  height: 5.6rem;
+  padding: 0 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222222;
+}
+.logo a {
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(219, 215, 215);
+}
+.logo:hover a {
+  color: rgb(255, 254, 254);
+}
+/* Hero section starts */
+.main-hero {
+  width: 100%;
+  height: 100%;
+  padding: 3rem 7rem;
+  background: #eeeeee;
+}
+.main-hero h1 {
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.main-hero p {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+.main-hero button {
+  background: #3276b1;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.main-hero a {
+  color: rgb(49, 142, 179);
+}
+/* Tutorials section starts*/
+.main-tuto {
+  width: 100%;
+  height: 100%;
+  padding: 3rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main-tuto .left-side-tuto {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-tuto .main-left {
+  width: 100%;
+  margin: auto;
+}
+.main-tuto .main-left .config h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 2;
+}
+.main-tuto .main-left .config p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.all-tuto {
+  width: 96%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.singal-tuto {
+  width: 30%;
+  height: 100%;
+  margin: 2.7rem 0;
+}
+.singal-tuto a {
+  font-size: 2.5rem;
+  color: #3276b1;
+  margin-bottom: 0.4rem;
+  display: inline-block;
+}
+.singal-tuto p {
+  font-size: 1.4rem;
+  color: #525050;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+.singal-tuto button {
+  background: transparent;
+  color: #000;
+  border: 1px solid rgb(180, 176, 176);
+  padding: 0.7rem 1.6rem;
+}
+.singal-tuto button:hover {
+  background: #ebebeb;
+}
+/* Right side tuto */
+.main-tuto .right-side-tuto {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.traning {
+  width: 100%;
+  padding: 1rem 0;
+  margin: auto;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+}
+.traning h1 {
+  font-size: 2.5rem;
+  width: 75%;
+  margin: auto;
+  font-weight: 500;
+}
+.traning p {
+  font-size: 1.3rem;
+  width: 75%;
+  margin: auto;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #525050;
+}
+.list-vid li {
+  font-size: 1.4rem;
+  list-style: disc;
+
+  width: 55%;
+  margin: auto;
+}
+.list-vid li a {
+  color: #318ddf;
+}
+.vid-btn {
+  width: 75%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+/* footer */
+
+.main-footer {
+  width: 100%;
+  padding: 0 7rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+.main-footer h5 {
+  border-top: 1px solid #ddd;
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Responsive */
+@media only screen and (max-width: 769px) {
+  .main-hero {
+    width: 100%;
+    height: 100%;
+    padding: 3rem 4rem;
+    background: #eeeeee;
+  }
+  nav {
+    width: 100%;
+    height: 5.6rem;
+    padding: 0 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222222;
+  }
+  .main-hero h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.3;
+    width: 100%;
+  }
+
+  .main-tuto {
+    flex-direction: column;
+  }
+  .main-tuto .left-side-tuto {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main-tuto .right-side-tuto {
+    width: 100%;
+  }
+  .all-tuto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .singal-tuto {
+    width: 100%;
+    height: 100%;
+    margin: 2.7rem 0;
+  }
+}

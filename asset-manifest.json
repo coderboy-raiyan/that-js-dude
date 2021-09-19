@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/that-js-dude/static/css/main.f786294a.chunk.css",
+    "main.js": "/that-js-dude/static/js/main.937c672f.chunk.js",
+    "main.js.map": "/that-js-dude/static/js/main.937c672f.chunk.js.map",
+    "runtime-main.js": "/that-js-dude/static/js/runtime-main.4562ac2a.js",
+    "runtime-main.js.map": "/that-js-dude/static/js/runtime-main.4562ac2a.js.map",
+    "static/js/2.acbc1a8a.chunk.js": "/that-js-dude/static/js/2.acbc1a8a.chunk.js",
+    "static/js/2.acbc1a8a.chunk.js.map": "/that-js-dude/static/js/2.acbc1a8a.chunk.js.map",
+    "index.html": "/that-js-dude/index.html",
+    "static/css/main.f786294a.chunk.css.map": "/that-js-dude/static/css/main.f786294a.chunk.css.map",
+    "static/js/2.acbc1a8a.chunk.js.LICENSE.txt": "/that-js-dude/static/js/2.acbc1a8a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4562ac2a.js",
+    "static/js/2.acbc1a8a.chunk.js",
+    "static/css/main.f786294a.chunk.css",
+    "static/js/main.937c672f.chunk.js"
+  ]
+}
